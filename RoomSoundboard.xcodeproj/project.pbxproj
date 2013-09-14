@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05E03342877A4DB89D4E8F02 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E21132204B841FE9401883A /* libPods.a */; };
 		A3EF71ED17E45328005BDAEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3EF71EC17E45328005BDAEF /* Foundation.framework */; };
 		A3EF71EF17E45328005BDAEF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3EF71EE17E45328005BDAEF /* CoreGraphics.framework */; };
 		A3EF71F117E45328005BDAEF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3EF71F017E45328005BDAEF /* UIKit.framework */; };
 		A3EF71F717E45328005BDAEF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3EF71F517E45328005BDAEF /* InfoPlist.strings */; };
 		A3EF71F917E45328005BDAEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EF71F817E45328005BDAEF /* main.m */; };
 		A3EF71FD17E45328005BDAEF /* RSBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EF71FC17E45328005BDAEF /* RSBAppDelegate.m */; };
-		A3EF720017E45328005BDAEF /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3EF71FE17E45328005BDAEF /* Main_iPhone.storyboard */; };
-		A3EF720317E45328005BDAEF /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3EF720117E45328005BDAEF /* Main_iPad.storyboard */; };
 		A3EF720617E45328005BDAEF /* RSBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EF720517E45328005BDAEF /* RSBViewController.m */; };
 		A3EF720817E45328005BDAEF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3EF720717E45328005BDAEF /* Images.xcassets */; };
 		A3EF720F17E45328005BDAEF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3EF720E17E45328005BDAEF /* XCTest.framework */; };
@@ -22,6 +21,11 @@
 		A3EF721117E45328005BDAEF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3EF71F017E45328005BDAEF /* UIKit.framework */; };
 		A3EF721917E45328005BDAEF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3EF721717E45328005BDAEF /* InfoPlist.strings */; };
 		A3EF721B17E45328005BDAEF /* RoomSoundboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EF721A17E45328005BDAEF /* RoomSoundboardTests.m */; };
+		A3EF722817E4552B005BDAEF /* parse.py in Resources */ = {isa = PBXBuildFile; fileRef = A3EF722517E4552B005BDAEF /* parse.py */; };
+		A3EF722917E4552B005BDAEF /* room.html in Resources */ = {isa = PBXBuildFile; fileRef = A3EF722617E4552B005BDAEF /* room.html */; };
+		A3EF722A17E4552B005BDAEF /* roomsounds.json in Resources */ = {isa = PBXBuildFile; fileRef = A3EF722717E4552B005BDAEF /* roomsounds.json */; };
+		A3EF722D17E45664005BDAEF /* RSBSound.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EF722C17E45664005BDAEF /* RSBSound.m */; };
+		A3EF723017E456A4005BDAEF /* RSBCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EF722F17E456A4005BDAEF /* RSBCharacter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E21132204B841FE9401883A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3EF71E917E45328005BDAEF /* RoomSoundboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoomSoundboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3EF71EC17E45328005BDAEF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A3EF71EE17E45328005BDAEF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,8 +50,6 @@
 		A3EF71FA17E45328005BDAEF /* RoomSoundboard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RoomSoundboard-Prefix.pch"; sourceTree = "<group>"; };
 		A3EF71FB17E45328005BDAEF /* RSBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSBAppDelegate.h; sourceTree = "<group>"; };
 		A3EF71FC17E45328005BDAEF /* RSBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSBAppDelegate.m; sourceTree = "<group>"; };
-		A3EF71FF17E45328005BDAEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		A3EF720217E45328005BDAEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		A3EF720417E45328005BDAEF /* RSBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSBViewController.h; sourceTree = "<group>"; };
 		A3EF720517E45328005BDAEF /* RSBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSBViewController.m; sourceTree = "<group>"; };
 		A3EF720717E45328005BDAEF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -55,6 +58,14 @@
 		A3EF721617E45328005BDAEF /* RoomSoundboardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RoomSoundboardTests-Info.plist"; sourceTree = "<group>"; };
 		A3EF721817E45328005BDAEF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A3EF721A17E45328005BDAEF /* RoomSoundboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoomSoundboardTests.m; sourceTree = "<group>"; };
+		A3EF722517E4552B005BDAEF /* parse.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = parse.py; sourceTree = "<group>"; };
+		A3EF722617E4552B005BDAEF /* room.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = room.html; sourceTree = "<group>"; };
+		A3EF722717E4552B005BDAEF /* roomsounds.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = roomsounds.json; sourceTree = "<group>"; };
+		A3EF722B17E45664005BDAEF /* RSBSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSBSound.h; sourceTree = "<group>"; };
+		A3EF722C17E45664005BDAEF /* RSBSound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSBSound.m; sourceTree = "<group>"; };
+		A3EF722E17E456A4005BDAEF /* RSBCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSBCharacter.h; sourceTree = "<group>"; };
+		A3EF722F17E456A4005BDAEF /* RSBCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSBCharacter.m; sourceTree = "<group>"; };
+		A54888BD3DD142D7A7C955B6 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = RoomSoundboard/Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +76,7 @@
 				A3EF71EF17E45328005BDAEF /* CoreGraphics.framework in Frameworks */,
 				A3EF71F117E45328005BDAEF /* UIKit.framework in Frameworks */,
 				A3EF71ED17E45328005BDAEF /* Foundation.framework in Frameworks */,
+				05E03342877A4DB89D4E8F02 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +100,7 @@
 				A3EF721417E45328005BDAEF /* RoomSoundboardTests */,
 				A3EF71EB17E45328005BDAEF /* Frameworks */,
 				A3EF71EA17E45328005BDAEF /* Products */,
+				A54888BD3DD142D7A7C955B6 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +120,7 @@
 				A3EF71EE17E45328005BDAEF /* CoreGraphics.framework */,
 				A3EF71F017E45328005BDAEF /* UIKit.framework */,
 				A3EF720E17E45328005BDAEF /* XCTest.framework */,
+				3E21132204B841FE9401883A /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -116,11 +130,14 @@
 			children = (
 				A3EF71FB17E45328005BDAEF /* RSBAppDelegate.h */,
 				A3EF71FC17E45328005BDAEF /* RSBAppDelegate.m */,
-				A3EF71FE17E45328005BDAEF /* Main_iPhone.storyboard */,
-				A3EF720117E45328005BDAEF /* Main_iPad.storyboard */,
 				A3EF720417E45328005BDAEF /* RSBViewController.h */,
 				A3EF720517E45328005BDAEF /* RSBViewController.m */,
+				A3EF722E17E456A4005BDAEF /* RSBCharacter.h */,
+				A3EF722F17E456A4005BDAEF /* RSBCharacter.m */,
+				A3EF722B17E45664005BDAEF /* RSBSound.h */,
+				A3EF722C17E45664005BDAEF /* RSBSound.m */,
 				A3EF720717E45328005BDAEF /* Images.xcassets */,
+				A3EF722417E4552B005BDAEF /* Resources */,
 				A3EF71F317E45328005BDAEF /* Supporting Files */,
 			);
 			path = RoomSoundboard;
@@ -155,6 +172,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A3EF722417E4552B005BDAEF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A3EF722517E4552B005BDAEF /* parse.py */,
+				A3EF722617E4552B005BDAEF /* room.html */,
+				A3EF722717E4552B005BDAEF /* roomsounds.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -162,9 +189,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A3EF721E17E45328005BDAEF /* Build configuration list for PBXNativeTarget "RoomSoundboard" */;
 			buildPhases = (
+				104499ED8D4A4C399763D31F /* Check Pods Manifest.lock */,
 				A3EF71E517E45328005BDAEF /* Sources */,
 				A3EF71E617E45328005BDAEF /* Frameworks */,
 				A3EF71E717E45328005BDAEF /* Resources */,
+				442F3FFF18004ECC8821273E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,10 +261,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3EF720317E45328005BDAEF /* Main_iPad.storyboard in Resources */,
 				A3EF720817E45328005BDAEF /* Images.xcassets in Resources */,
-				A3EF720017E45328005BDAEF /* Main_iPhone.storyboard in Resources */,
+				A3EF722917E4552B005BDAEF /* room.html in Resources */,
+				A3EF722A17E4552B005BDAEF /* roomsounds.json in Resources */,
 				A3EF71F717E45328005BDAEF /* InfoPlist.strings in Resources */,
+				A3EF722817E4552B005BDAEF /* parse.py in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,14 +279,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		104499ED8D4A4C399763D31F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		442F3FFF18004ECC8821273E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/RoomSoundboard/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A3EF71E517E45328005BDAEF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A3EF71FD17E45328005BDAEF /* RSBAppDelegate.m in Sources */,
+				A3EF722D17E45664005BDAEF /* RSBSound.m in Sources */,
 				A3EF71F917E45328005BDAEF /* main.m in Sources */,
 				A3EF720617E45328005BDAEF /* RSBViewController.m in Sources */,
+				A3EF723017E456A4005BDAEF /* RSBCharacter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,22 +350,6 @@
 				A3EF71F617E45328005BDAEF /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		A3EF71FE17E45328005BDAEF /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A3EF71FF17E45328005BDAEF /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		A3EF720117E45328005BDAEF /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A3EF720217E45328005BDAEF /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		A3EF721717E45328005BDAEF /* InfoPlist.strings */ = {
@@ -390,6 +439,7 @@
 		};
 		A3EF721F17E45328005BDAEF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A54888BD3DD142D7A7C955B6 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -403,6 +453,7 @@
 		};
 		A3EF722017E45328005BDAEF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A54888BD3DD142D7A7C955B6 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -475,6 +526,7 @@
 				A3EF722017E45328005BDAEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3EF722117E45328005BDAEF /* Build configuration list for PBXNativeTarget "RoomSoundboardTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +535,7 @@
 				A3EF722317E45328005BDAEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
