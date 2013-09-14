@@ -11,12 +11,15 @@
 
 - (BOOL)application:(UIApplication *)application
     didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-  self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]];
+  self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
   self.roomViewController = [[RSBViewController alloc] init];
   self.navigationController =
       [[UINavigationController alloc] initWithRootViewController:self.roomViewController];
   self.window.rootViewController = self.navigationController;
   [self.window makeKeyAndVisible];
+  
+  [[UINavigationBar appearance] setTintColor:[UIColor blackColor]];
+  
   return YES;
 }
 

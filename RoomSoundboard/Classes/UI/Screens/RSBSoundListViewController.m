@@ -4,6 +4,7 @@
 
 #import "RSBCharacter.h"
 #import "RSBSound.h"
+#import "UIView+FLKAutoLayout.h"
 
 @interface RSBSoundListViewController ()<UITableViewDataSource, UITableViewDelegate>
 @property(nonatomic, copy) NSArray *sounds;
@@ -20,6 +21,7 @@
     _sounds = character.sounds;
     _tableView = [self newTableView];
     [self.view addSubview:_tableView];
+    [self applyConstraints];
   }
   return self;
 }
@@ -34,23 +36,32 @@
   return tableView;
 }
 
+- (void)applyConstraints {
+  [self.tableView alignCenterWithView:self.view];
+  [self.tableView constrainWidthToView:self.view predicate:nil];
+  [self.tableView constrainHeightToView:self.view predicate:nil];
+}
+
 - (void)viewDidLoad {
   [super viewDidLoad];
   self.view.backgroundColor = [UIColor blackColor];
-  self.tableView.frame = self.view.bounds;
 }
 
 #pragma mark - Private
 
 - (void)playSound:(NSString *)file {
-  NSURL *fileURL = [NSURL fileURLWithPath:file];
-  if (self.audioPlayer.isPlaying) {
-    [self.audioPlayer stop];
-  }
-  self.audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:fileURL error:NULL];
-  [self.audioPlayer setVolume:1.0];
-  [self.audioPlayer prepareToPlay];
-  [self.audioPlayer play];
+  dispatch_queue_t audioQueue = dispatch_queue_create("com.theroom.audio", NULL);
+  RSBSoundListViewController * __weak weakSelf = self;
+  dispatch_async(audioQueue, ^{
+    NSURL *fileURL = [NSURL fileURLWithPath:file];
+    if (weakSelf.audioPlayer.isPlaying) {
+      [weakSelf.audioPlayer stop];
+    }
+    weakSelf.audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:fileURL error:NULL];
+    [weakSelf.audioPlayer setVolume:1.0];
+    [weakSelf.audioPlayer prepareToPlay];
+    [weakSelf.audioPlayer play];
+  });
 }
 
 #pragma mark - UITableViewDataSource methods
