@@ -1,0 +1,7 @@
+xcodeproj '../RoomSoundboard.xcodeproj'
+platform :ios, '6.0'
+pod 'SDWebImage', '3.4'
+pod 'FLKAutoLayout', '0.1.1'
+pod 'AFNetworking', '1.3.2'
+pod 'MBProgressHUD', '0.7'
+pod 'SVWebViewController', '0.1'

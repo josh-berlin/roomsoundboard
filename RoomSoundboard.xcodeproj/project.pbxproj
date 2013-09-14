@@ -8,13 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		05E03342877A4DB89D4E8F02 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E21132204B841FE9401883A /* libPods.a */; };
+		A3B7DABC17E4C499008344B8 /* RSBSoundListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B7DABB17E4C499008344B8 /* RSBSoundListViewController.m */; };
 		A3EF71ED17E45328005BDAEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3EF71EC17E45328005BDAEF /* Foundation.framework */; };
 		A3EF71EF17E45328005BDAEF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3EF71EE17E45328005BDAEF /* CoreGraphics.framework */; };
 		A3EF71F117E45328005BDAEF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3EF71F017E45328005BDAEF /* UIKit.framework */; };
 		A3EF71F717E45328005BDAEF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3EF71F517E45328005BDAEF /* InfoPlist.strings */; };
 		A3EF71F917E45328005BDAEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EF71F817E45328005BDAEF /* main.m */; };
-		A3EF71FD17E45328005BDAEF /* RSBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EF71FC17E45328005BDAEF /* RSBAppDelegate.m */; };
-		A3EF720617E45328005BDAEF /* RSBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EF720517E45328005BDAEF /* RSBViewController.m */; };
 		A3EF720817E45328005BDAEF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3EF720717E45328005BDAEF /* Images.xcassets */; };
 		A3EF720F17E45328005BDAEF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3EF720E17E45328005BDAEF /* XCTest.framework */; };
 		A3EF721017E45328005BDAEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3EF71EC17E45328005BDAEF /* Foundation.framework */; };
@@ -24,8 +23,14 @@
 		A3EF722817E4552B005BDAEF /* parse.py in Resources */ = {isa = PBXBuildFile; fileRef = A3EF722517E4552B005BDAEF /* parse.py */; };
 		A3EF722917E4552B005BDAEF /* room.html in Resources */ = {isa = PBXBuildFile; fileRef = A3EF722617E4552B005BDAEF /* room.html */; };
 		A3EF722A17E4552B005BDAEF /* roomsounds.json in Resources */ = {isa = PBXBuildFile; fileRef = A3EF722717E4552B005BDAEF /* roomsounds.json */; };
-		A3EF722D17E45664005BDAEF /* RSBSound.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EF722C17E45664005BDAEF /* RSBSound.m */; };
-		A3EF723017E456A4005BDAEF /* RSBCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EF722F17E456A4005BDAEF /* RSBCharacter.m */; };
+		A3EF723F17E4ACA4005BDAEF /* RSBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EF723417E4ACA4005BDAEF /* RSBAppDelegate.m */; };
+		A3EF724017E4ACA4005BDAEF /* RSBCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EF723817E4ACA4005BDAEF /* RSBCharacter.m */; };
+		A3EF724117E4ACA4005BDAEF /* RSBSound.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EF723A17E4ACA4005BDAEF /* RSBSound.m */; };
+		A3EF724517E4ACDD005BDAEF /* RSBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EF724417E4ACDD005BDAEF /* RSBManager.m */; };
+		A3EF724A17E4B8A1005BDAEF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3EF724917E4B8A1005BDAEF /* QuartzCore.framework */; };
+		A3EF725017E4B916005BDAEF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3EF724F17E4B916005BDAEF /* AVFoundation.framework */; };
+		A3EF725317E4BA37005BDAEF /* RSBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EF725217E4BA37005BDAEF /* RSBViewController.m */; };
+		A3EF725617E4BA4C005BDAEF /* RSBCharacterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EF725517E4BA4C005BDAEF /* RSBCharacterCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,8 @@
 
 /* Begin PBXFileReference section */
 		3E21132204B841FE9401883A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3B7DABA17E4C499008344B8 /* RSBSoundListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSBSoundListViewController.h; sourceTree = "<group>"; };
+		A3B7DABB17E4C499008344B8 /* RSBSoundListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSBSoundListViewController.m; sourceTree = "<group>"; };
 		A3EF71E917E45328005BDAEF /* RoomSoundboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoomSoundboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3EF71EC17E45328005BDAEF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A3EF71EE17E45328005BDAEF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,10 +55,6 @@
 		A3EF71F617E45328005BDAEF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A3EF71F817E45328005BDAEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A3EF71FA17E45328005BDAEF /* RoomSoundboard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RoomSoundboard-Prefix.pch"; sourceTree = "<group>"; };
-		A3EF71FB17E45328005BDAEF /* RSBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSBAppDelegate.h; sourceTree = "<group>"; };
-		A3EF71FC17E45328005BDAEF /* RSBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSBAppDelegate.m; sourceTree = "<group>"; };
-		A3EF720417E45328005BDAEF /* RSBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSBViewController.h; sourceTree = "<group>"; };
-		A3EF720517E45328005BDAEF /* RSBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSBViewController.m; sourceTree = "<group>"; };
 		A3EF720717E45328005BDAEF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A3EF720D17E45328005BDAEF /* RoomSoundboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoomSoundboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3EF720E17E45328005BDAEF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -61,10 +64,22 @@
 		A3EF722517E4552B005BDAEF /* parse.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = parse.py; sourceTree = "<group>"; };
 		A3EF722617E4552B005BDAEF /* room.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = room.html; sourceTree = "<group>"; };
 		A3EF722717E4552B005BDAEF /* roomsounds.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = roomsounds.json; sourceTree = "<group>"; };
-		A3EF722B17E45664005BDAEF /* RSBSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSBSound.h; sourceTree = "<group>"; };
-		A3EF722C17E45664005BDAEF /* RSBSound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSBSound.m; sourceTree = "<group>"; };
-		A3EF722E17E456A4005BDAEF /* RSBCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSBCharacter.h; sourceTree = "<group>"; };
-		A3EF722F17E456A4005BDAEF /* RSBCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSBCharacter.m; sourceTree = "<group>"; };
+		A3EF723317E4ACA4005BDAEF /* RSBAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSBAppDelegate.h; sourceTree = "<group>"; };
+		A3EF723417E4ACA4005BDAEF /* RSBAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSBAppDelegate.m; sourceTree = "<group>"; };
+		A3EF723717E4ACA4005BDAEF /* RSBCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSBCharacter.h; sourceTree = "<group>"; };
+		A3EF723817E4ACA4005BDAEF /* RSBCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSBCharacter.m; sourceTree = "<group>"; };
+		A3EF723917E4ACA4005BDAEF /* RSBSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSBSound.h; sourceTree = "<group>"; };
+		A3EF723A17E4ACA4005BDAEF /* RSBSound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSBSound.m; sourceTree = "<group>"; };
+		A3EF724317E4ACDD005BDAEF /* RSBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSBManager.h; sourceTree = "<group>"; };
+		A3EF724417E4ACDD005BDAEF /* RSBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSBManager.m; sourceTree = "<group>"; };
+		A3EF724917E4B8A1005BDAEF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A3EF724B17E4B8AA005BDAEF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A3EF724D17E4B8F5005BDAEF /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		A3EF724F17E4B916005BDAEF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A3EF725117E4BA37005BDAEF /* RSBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSBViewController.h; sourceTree = "<group>"; };
+		A3EF725217E4BA37005BDAEF /* RSBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSBViewController.m; sourceTree = "<group>"; };
+		A3EF725417E4BA4C005BDAEF /* RSBCharacterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSBCharacterCell.h; sourceTree = "<group>"; };
+		A3EF725517E4BA4C005BDAEF /* RSBCharacterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSBCharacterCell.m; sourceTree = "<group>"; };
 		A54888BD3DD142D7A7C955B6 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = RoomSoundboard/Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -73,6 +88,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3EF725017E4B916005BDAEF /* AVFoundation.framework in Frameworks */,
+				A3EF724A17E4B8A1005BDAEF /* QuartzCore.framework in Frameworks */,
 				A3EF71EF17E45328005BDAEF /* CoreGraphics.framework in Frameworks */,
 				A3EF71F117E45328005BDAEF /* UIKit.framework in Frameworks */,
 				A3EF71ED17E45328005BDAEF /* Foundation.framework in Frameworks */,
@@ -116,6 +133,10 @@
 		A3EF71EB17E45328005BDAEF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A3EF724F17E4B916005BDAEF /* AVFoundation.framework */,
+				A3EF724D17E4B8F5005BDAEF /* CoreAudio.framework */,
+				A3EF724B17E4B8AA005BDAEF /* AudioToolbox.framework */,
+				A3EF724917E4B8A1005BDAEF /* QuartzCore.framework */,
 				A3EF71EC17E45328005BDAEF /* Foundation.framework */,
 				A3EF71EE17E45328005BDAEF /* CoreGraphics.framework */,
 				A3EF71F017E45328005BDAEF /* UIKit.framework */,
@@ -128,14 +149,7 @@
 		A3EF71F217E45328005BDAEF /* RoomSoundboard */ = {
 			isa = PBXGroup;
 			children = (
-				A3EF71FB17E45328005BDAEF /* RSBAppDelegate.h */,
-				A3EF71FC17E45328005BDAEF /* RSBAppDelegate.m */,
-				A3EF720417E45328005BDAEF /* RSBViewController.h */,
-				A3EF720517E45328005BDAEF /* RSBViewController.m */,
-				A3EF722E17E456A4005BDAEF /* RSBCharacter.h */,
-				A3EF722F17E456A4005BDAEF /* RSBCharacter.m */,
-				A3EF722B17E45664005BDAEF /* RSBSound.h */,
-				A3EF722C17E45664005BDAEF /* RSBSound.m */,
+				A3EF723117E4ACA4005BDAEF /* Classes */,
 				A3EF720717E45328005BDAEF /* Images.xcassets */,
 				A3EF722417E4552B005BDAEF /* Resources */,
 				A3EF71F317E45328005BDAEF /* Supporting Files */,
@@ -180,6 +194,67 @@
 				A3EF722717E4552B005BDAEF /* roomsounds.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		A3EF723117E4ACA4005BDAEF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A3EF723217E4ACA4005BDAEF /* Application */,
+				A3EF723517E4ACA4005BDAEF /* Managers */,
+				A3EF723617E4ACA4005BDAEF /* Model */,
+				A3EF723B17E4ACA4005BDAEF /* UI */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A3EF723217E4ACA4005BDAEF /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				A3EF723317E4ACA4005BDAEF /* RSBAppDelegate.h */,
+				A3EF723417E4ACA4005BDAEF /* RSBAppDelegate.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		A3EF723517E4ACA4005BDAEF /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				A3EF724317E4ACDD005BDAEF /* RSBManager.h */,
+				A3EF724417E4ACDD005BDAEF /* RSBManager.m */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		A3EF723617E4ACA4005BDAEF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A3EF723717E4ACA4005BDAEF /* RSBCharacter.h */,
+				A3EF723817E4ACA4005BDAEF /* RSBCharacter.m */,
+				A3EF723917E4ACA4005BDAEF /* RSBSound.h */,
+				A3EF723A17E4ACA4005BDAEF /* RSBSound.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A3EF723B17E4ACA4005BDAEF /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A3EF723E17E4ACA4005BDAEF /* Screens */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		A3EF723E17E4ACA4005BDAEF /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				A3EF725417E4BA4C005BDAEF /* RSBCharacterCell.h */,
+				A3EF725517E4BA4C005BDAEF /* RSBCharacterCell.m */,
+				A3B7DABA17E4C499008344B8 /* RSBSoundListViewController.h */,
+				A3B7DABB17E4C499008344B8 /* RSBSoundListViewController.m */,
+				A3EF725117E4BA37005BDAEF /* RSBViewController.h */,
+				A3EF725217E4BA37005BDAEF /* RSBViewController.m */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,11 +392,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3EF71FD17E45328005BDAEF /* RSBAppDelegate.m in Sources */,
-				A3EF722D17E45664005BDAEF /* RSBSound.m in Sources */,
 				A3EF71F917E45328005BDAEF /* main.m in Sources */,
-				A3EF720617E45328005BDAEF /* RSBViewController.m in Sources */,
-				A3EF723017E456A4005BDAEF /* RSBCharacter.m in Sources */,
+				A3EF724017E4ACA4005BDAEF /* RSBCharacter.m in Sources */,
+				A3B7DABC17E4C499008344B8 /* RSBSoundListViewController.m in Sources */,
+				A3EF724517E4ACDD005BDAEF /* RSBManager.m in Sources */,
+				A3EF725317E4BA37005BDAEF /* RSBViewController.m in Sources */,
+				A3EF724117E4ACA4005BDAEF /* RSBSound.m in Sources */,
+				A3EF725617E4BA4C005BDAEF /* RSBCharacterCell.m in Sources */,
+				A3EF723F17E4ACA4005BDAEF /* RSBAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

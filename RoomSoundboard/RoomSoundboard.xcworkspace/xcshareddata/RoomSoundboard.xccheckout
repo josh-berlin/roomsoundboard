@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6D77E6E4-5F73-4FDC-971C-04221BB7587E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>RoomSoundboard</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C4C73D74-E61F-422D-8742-9BFCDF88FA32</key>
+		<string>ssh://github.com/joshb21/roomsoundboard.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>RoomSoundboard/RoomSoundboard.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C4C73D74-E61F-422D-8742-9BFCDF88FA32</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/joshb21/roomsoundboard.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C4C73D74-E61F-422D-8742-9BFCDF88FA32</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C4C73D74-E61F-422D-8742-9BFCDF88FA32</string>
+			<key>IDESourceControlWCCName</key>
+			<string>RoomSoundboard</string>
+		</dict>
+	</array>
+</dict>
+</plist>
