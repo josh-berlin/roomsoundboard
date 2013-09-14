@@ -541,10 +541,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Josh Berlin (72NX6HE832)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Josh Berlin (72NX6HE832)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RoomSoundboard/RoomSoundboard-Prefix.pch";
 				INFOPLIST_FILE = "RoomSoundboard/RoomSoundboard-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6A2B22E3-B862-4274-9F81-65E6E8EBEFE4";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6A2B22E3-B862-4274-9F81-65E6E8EBEFE4";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				VALID_ARCHS = "armv7 armv7s";
